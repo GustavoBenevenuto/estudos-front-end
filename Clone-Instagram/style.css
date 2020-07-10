@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+
+header{
+    background-color: #FFF;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+header .content-header{
+    max-width: 1060px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content-header h2 a {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #262626;
+}
+
+
+header .content-header img{
+    width: 20px;
+}
+
+header .content-header input{
+    background: #FAFAFA url('src/img/search-black-mode.png') no-repeat 7px center;
+    background-size: 15px;
+    width: 230px;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;    
+    outline: none;
+    border: 1px solid #DBDBDB;
+    border-radius: 10px;
+}
+
+header .content-header div{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+header .content-header img{
+    width: 25px;
+}
+
+main {
+    background-color: aqua;
+    max-width: 1060px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .story{
+    width: 600px;
+    height: 120px;
+    background-color: blue;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    
+}
+
+main .story img{
+    display: inline-block;
+    width: 70px;
+    border-radius: 50%;
+    background: rgb(253,190,45);
+    background: linear-gradient(0deg, rgba(253,190,45,1) 0%, rgba(253,45,146,1) 100%);
+    padding: 1px;
+    margin-left: 10px;
+}
+  
+  
+  
+::-webkit-scrollbar {
+    width: 2px;
+    height: 9px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
