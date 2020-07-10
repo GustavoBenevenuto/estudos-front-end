@@ -148,3 +148,122 @@ main header .content-profile .profile p {
     margin: 0px;
     font-size: 14px;
 }
+
+main section {
+    display: flex;
+    max-width: 1060px;
+    margin: 20px auto;
+}
+
+main section .post{
+    width: 700px;
+    border: 1px solid #D0CCC6;
+    border-radius: 5px;
+}
+
+main section .post .post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section .post .post-header div{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+}
+
+main section .post .post-header div img {
+    width: 60px;
+    padding: 5px 10px;
+}
+
+main section .post .post-header a img{
+    width: 20px;
+    padding-right: 10px;
+}
+
+main section .post img{
+    width: 700px;
+    padding: 2px;
+}
+
+main section .post-footer-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+main section .post-footer-options a img{
+    width: 25px;
+}
+
+main section .post-footer-options div {
+    display: flex;
+    flex-direction: row;
+}
+
+main section .post-footer-options div a img{
+    width: 30px;
+    padding: 0px 8px;
+}
+
+main section .post .post-footer-coments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-top: 1px solid #D0CCC6;
+}
+
+main section .post .post-footer-coments textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    font-size: 16px;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+
+}
+
+main section .post .post-footer-coments a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #aed7f0;
+}
+
+main section .post .post-footer-coments a:hover{
+    color: #52B6F7;
+}
+
+
+main section .followers{
+    margin-left: 50px;
+}
+
+main section .followers .followers-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262626;
+    font-size: 14px;
+}
+
+main section .followers .followers-header h3{
+    color: #262626;
+    font-size: 14px;
+}
+
+main section .followers .followers-header a:hover{
+    color: #525252;
+    cursor: pointer;
+}
