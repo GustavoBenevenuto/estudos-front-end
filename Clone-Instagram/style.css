@@ -53,18 +53,23 @@ header .content-header img{
     width: 25px;
 }
 
-main {
-    background-color: aqua;
+main header{
+    background-color: transparent;
+    border: none;
     max-width: 1060px;
     margin: 0px auto;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-main .story{
-    width: 600px;
+main header .story{
+    width: 700px;
     height: 120px;
-    background-color: blue;
+    background-color: #FFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
@@ -72,7 +77,7 @@ main .story{
     
 }
 
-main .story img{
+main header .story img{
     display: inline-block;
     width: 70px;
     border-radius: 50%;
@@ -81,8 +86,6 @@ main .story img{
     padding: 1px;
     margin-left: 10px;
 }
-  
-  
   
 ::-webkit-scrollbar {
     width: 2px;
@@ -116,4 +119,32 @@ main .story img{
 }
 ::-webkit-scrollbar-corner {
     background: transparent;
+}
+
+main header .content-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+main header .content-profile img {
+    width: 70px;
+}
+
+main header .content-profile .profile{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main header .content-profile .profile h3{
+    font-size: 14px;
+    color: #474747;
+    margin: 0px;
+}
+
+main header .content-profile .profile p {
+    color: #939393;
+    margin: 0px;
+    font-size: 14px;
 }
